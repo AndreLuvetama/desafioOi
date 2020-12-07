@@ -19,12 +19,7 @@
  <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-     <%
-		 String access_token=(String)request.getParameter("access_token");		 
-		 UsuarioModelo usuarioModelo=new UsuarioModelo();
-		 Usuario usuario =usuarioModelo.call_me(access_token);
-				
-	 %>
+    
 		 
 		
 		
@@ -32,12 +27,9 @@
 	
 		<div class="form-group row pt-5">
 			
-			<div class="col-sm-4">
-		<img class = "imgStyle" src="<%=usuario.getImgPerfil() %>"></img>
-					  
-			</div>			 
-				<div class="col-sm-8">
-					<p class="text-left textoTelaJogo"> BEM VINDO(A) A PISTA DE FIBRA DA OI</p>
+						 
+				<div class="col-sm-12">
+					<p class="text-center textoTelaJogo"> BEM VINDO(A) A PISTA DE FIBRA DA OI</p>
 				</div>	
 			</div>
 	
@@ -47,13 +39,13 @@
 				<div class="form-group row">
 				    <label for="nomeUsuario" class="col-sm-1 col-form-label textForm">Nome</label>
 				    <div class="col-sm-8">
-				      <input type="text" class="form-control" id="nomeUsuario" placeholder="Nome" name="nomeUsuario" value="<%=usuario.getNomeUsuario() %>">
+				      <input type="text" class="form-control" id="nomeUsuario" placeholder="Nome" name="nomeUsuario" value="">
 				    </div>
 				  </div>
 			   <div class="form-group row">
 				    <label for="usuarioEmail" class="col-sm-1 col-form-label textForm">Email</label>
 				    <div class="col-sm-6">
-				      <input type="text" class="form-control" id="usuarioEmail" placeholder="Email" name="usuarioEmail" value="<%=usuario.getEmail() %>">
+				      <input type="text" class="form-control" id="usuarioEmail" placeholder="Email" name="usuarioEmail" value="">
 				    </div>
 				    <label for="usuarioSenha" class="col-sm-1 col-form-label textForm">Senha</label>
 				    <div class="col-sm-2">
@@ -64,7 +56,7 @@
 				<div class="form-group row">
 				    <label for="inputWhatsapp" class="col-sm-2 col-form-label textForm">WhatsApp</label>
 				    <div class="col-sm-4">
-				      <input type="text" class="form-control" id=""inputWhatsapp"" placeholder="(00) 00000000 " name="whatsUsuario">
+				      <input type="text" class="form-control" id="inputWhatsapp" placeholder="(00) 00000000 " name="whatsUsuario">
 				    </div>
 				      <label for="inteTelefone" class="col-sm-1 col-form-label textForm">Telefone</label>
 				    <div class="col-sm-4">
@@ -74,12 +66,11 @@
 			 
 			 
 			  <div class="row p-2">
-			  <button type="submit"  class="btn btn-warning text-white">Confirmar dados</button></div>
+			  <button type="submit"  class="btn btn-warning text-white">Cadastrar Dados</button></div>
 			</form>
 			 </div>
 			 <hr class ="linha">
-			 <div class="row justify-content-center p-5" >
-			 <button type="button" class="btn btn-warning btn-lg btn-larg text-white">INICIAR O JOGO</button></div>
+			
 			
 			
     </div>

@@ -1,4 +1,4 @@
-package com.br.skatefibra.user;
+package br.com.skatefibra.user;
 
 public class Usuario {
 	private String nomeUsuario;
@@ -6,6 +6,8 @@ public class Usuario {
 	private String imgPerfil;
 	private String id;
 	
+	
+
 	public String getNomeUsuario() {
 		return nomeUsuario;
 	}

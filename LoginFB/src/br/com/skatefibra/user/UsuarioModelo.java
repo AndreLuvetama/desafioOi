@@ -1,4 +1,4 @@
-package com.br.skatefibra.user;
+package br.com.skatefibra.user;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

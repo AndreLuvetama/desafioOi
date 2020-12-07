@@ -9,8 +9,8 @@
     
 <head>
 	<title>Buscando o meu trofeu</title>
-	<link rel ="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel ="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
 
  <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -64,14 +64,14 @@
 </script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v9.0&appId=1018327995339925&autoLogAppEvents=1" nonce="xFIuYDtL"></script>
 
-	<div class="section">
+	<div class="container">
 		<div class= "row pt-2">
 		  <div class= "col">
 		 
 		            <div class="col">
 						<center><img src="img/logoOI2.fw.png" class="rounded" alt="Logo" ><center>
 					</div>
-					<div class = "boxForm"> <!-- Box do form -->
+					<div class = "boxForm" > <!-- Box do form -->
 		             <form class = "formEntrada pt-5">
 						<div class="input-group mb-3">
 							<div class="input-group-append">
@@ -91,7 +91,7 @@
 								     <span class="text-left"><a href="#" class="linkText">Lembrar senha</a></span>
 								</div>
 								<div class="col-auto">
-								      <span class="text-right"><a href="#" class="linkText">Não tem cadastro? </a></span>
+								      <span class="text-right"><a href="CadastrarNovo.jsp" class="linkText">Não tem cadastro? </a></span>
 								</div>								
 							</div>
 						
@@ -113,7 +113,7 @@
 			
 		   </div>
 		 
-		
+		</div>
 	</div>
 </body>
 </html>
